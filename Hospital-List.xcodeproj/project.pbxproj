@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890628E7DFBA00883633 /* AlertBuilder.swift */; };
 		644A890928E7DFBF00883633 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890828E7DFBF00883633 /* AlertAction.swift */; };
+		644A890B28E7F14300883633 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890A28E7F14300883633 /* MainViewModel.swift */; };
 		644A890D28E7F71800883633 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890C28E7F71800883633 /* Networking.swift */; };
 		644A891028E7F73A00883633 /* NetworkRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890F28E7F73A00883633 /* NetworkRequestable.swift */; };
 		644A891228E7F75B00883633 /* HospitalListAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A891128E7F75B00883633 /* HospitalListAPI.swift */; };
@@ -25,12 +26,13 @@
 		64B2C58C28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58A28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift */; };
 		64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58E28EC9C8C004C2D40 /* UIView+.swift */; };
 		64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */; };
+		64E2599928EC384000C197A9 /* MainInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599828EC384000C197A9 /* MainInfoView.swift */; };
 		64E2599B28EC3F4100C197A9 /* HospitalListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */; };
 		64E2599D28EC40EB00C197A9 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599C28EC40EB00C197A9 /* Storage.swift */; };
 		64E2599F28EC41FB00C197A9 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599E28EC41FB00C197A9 /* Hospital.swift */; };
 		64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */; };
 		64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */; };
-		64F4B2DE28E6EBB7003799C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DD28E6EBB7003799C6 /* ViewController.swift */; };
+		64F4B2DE28E6EBB7003799C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DD28E6EBB7003799C6 /* MainViewController.swift */; };
 		64F4B2E328E6EBB8003799C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F4B2E228E6EBB8003799C6 /* Assets.xcassets */; };
 		64F4B2E628E6EBB8003799C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F4B2E428E6EBB8003799C6 /* LaunchScreen.storyboard */; };
 		F457D3440314F862A86CDB5A /* Pods_Hospital_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656632C5480D632BCAAE36E4 /* Pods_Hospital_List.framework */; };
@@ -40,6 +42,7 @@
 		12DB02FA75E27D7B94AEE4F3 /* Pods-Hospital-List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital-List.debug.xcconfig"; path = "Target Support Files/Pods-Hospital-List/Pods-Hospital-List.debug.xcconfig"; sourceTree = "<group>"; };
 		644A890628E7DFBA00883633 /* AlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
 		644A890828E7DFBF00883633 /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		644A890A28E7F14300883633 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		644A890C28E7F71800883633 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		644A890F28E7F73A00883633 /* NetworkRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestable.swift; sourceTree = "<group>"; };
 		644A891128E7F75B00883633 /* HospitalListAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListAPI.swift; sourceTree = "<group>"; };
@@ -56,13 +59,14 @@
 		64B2C58A28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HospitalEntity+CoreDataProperties.swift"; path = "/Users/eddy/Documents/Hospital-List/Hospital-List/Storage/HospitalEntity+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		64B2C58E28EC9C8C004C2D40 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HospitalList+Bundle.swift"; sourceTree = "<group>"; };
+		64E2599828EC384000C197A9 /* MainInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoView.swift; sourceTree = "<group>"; };
 		64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListButton.swift; sourceTree = "<group>"; };
 		64E2599C28EC40EB00C197A9 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		64E2599E28EC41FB00C197A9 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 		64F4B2D628E6EBB7003799C6 /* Hospital-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		64F4B2DD28E6EBB7003799C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64F4B2DD28E6EBB7003799C6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		64F4B2E228E6EBB8003799C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64F4B2E528E6EBB8003799C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64F4B2E728E6EBB8003799C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +92,6 @@
 				12DB02FA75E27D7B94AEE4F3 /* Pods-Hospital-List.debug.xcconfig */,
 				DF33F44C5CADB301C0028327 /* Pods-Hospital-List.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -170,6 +173,9 @@
 		64B2C57A28EC4A41004C2D40 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				64F4B2DD28E6EBB7003799C6 /* MainViewController.swift */,
+				64E2599828EC384000C197A9 /* MainInfoView.swift */,
+				644A890A28E7F14300883633 /* MainViewModel.swift */,
 				64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */,
 			);
 			path = Home;
@@ -354,13 +360,16 @@
 				644A891028E7F73A00883633 /* NetworkRequestable.swift in Sources */,
 				64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */,
 				644A892128E7F83000883633 /* Encodable+Alamofire.swift in Sources */,
+				64F4B2DE28E6EBB7003799C6 /* MainViewController.swift in Sources */,
 				64B2C58128EC59C0004C2D40 /* HospitalList.xcdatamodeld in Sources */,
 				64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */,
 				644A891C28E7F7F200883633 /* CommonRequest.swift in Sources */,
 				64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */,
 				64B2C58C28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift in Sources */,
+				644A890B28E7F14300883633 /* MainViewModel.swift in Sources */,
 				644A891428E7F77900883633 /* HospitalListService.swift in Sources */,
 				644A891228E7F75B00883633 /* HospitalListAPI.swift in Sources */,
+				64E2599928EC384000C197A9 /* MainInfoView.swift in Sources */,
 				64E2599B28EC3F4100C197A9 /* HospitalListButton.swift in Sources */,
 				64B2C58B28EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift in Sources */,
 				64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */,
