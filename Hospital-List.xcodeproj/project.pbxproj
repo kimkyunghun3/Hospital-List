@@ -20,6 +20,8 @@
 		644A891E28E7F80A00883633 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A891D28E7F80A00883633 /* PrimitiveSequence.swift */; };
 		644A892128E7F83000883633 /* Encodable+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A892028E7F83000883633 /* Encodable+Alamofire.swift */; };
 		64B2C57328EC4883004C2D40 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57228EC4883004C2D40 /* UIStackView+.swift */; };
+		64B2C57628EC48C2004C2D40 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57528EC48C2004C2D40 /* Formatter.swift */; };
+		64B2C57828EC4928004C2D40 /* Date+sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57728EC4928004C2D40 /* Date+sugar.swift */; };
 		64B2C58128EC59C0004C2D40 /* HospitalList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57F28EC59C0004C2D40 /* HospitalList.xcdatamodeld */; };
 		64B2C58828EC6348004C2D40 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58728EC6348004C2D40 /* PersistentManager.swift */; };
 		64B2C58B28EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58928EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift */; };
@@ -53,6 +55,8 @@
 		644A891D28E7F80A00883633 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveSequence.swift; sourceTree = "<group>"; };
 		644A892028E7F83000883633 /* Encodable+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Alamofire.swift"; sourceTree = "<group>"; };
 		64B2C57228EC4883004C2D40 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		64B2C57528EC48C2004C2D40 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		64B2C57728EC4928004C2D40 /* Date+sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+sugar.swift"; sourceTree = "<group>"; };
 		64B2C58028EC59C0004C2D40 /* HospitalList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HospitalList.xcdatamodel; sourceTree = "<group>"; };
 		64B2C58728EC6348004C2D40 /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
 		64B2C58928EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HospitalEntity+CoreDataClass.swift"; path = "/Users/eddy/Documents/Hospital-List/Hospital-List/Storage/HospitalEntity+CoreDataClass.swift"; sourceTree = "<absolute>"; };
@@ -158,6 +162,8 @@
 				644A890628E7DFBA00883633 /* AlertBuilder.swift */,
 				64B2C58E28EC9C8C004C2D40 /* UIView+.swift */,
 				644A890828E7DFBF00883633 /* AlertAction.swift */,
+				64B2C57528EC48C2004C2D40 /* Formatter.swift */,
+				64B2C57728EC4928004C2D40 /* Date+sugar.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -355,8 +361,10 @@
 				644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */,
 				644A891628E7F79500883633 /* HospitalListResponse.swift in Sources */,
 				64B2C58828EC6348004C2D40 /* PersistentManager.swift in Sources */,
+				64B2C57828EC4928004C2D40 /* Date+sugar.swift in Sources */,
 				64E2599D28EC40EB00C197A9 /* Storage.swift in Sources */,
 				644A891828E7F7C000883633 /* HospitalListRequestModel.swift in Sources */,
+				64B2C57628EC48C2004C2D40 /* Formatter.swift in Sources */,
 				644A891028E7F73A00883633 /* NetworkRequestable.swift in Sources */,
 				64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */,
 				644A892128E7F83000883633 /* Encodable+Alamofire.swift in Sources */,
