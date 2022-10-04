@@ -128,6 +128,15 @@
 			path = Storage;
 			sourceTree = "<group>";
 		};
+		64B2C58D28EC9BB4004C2D40 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */,
+				64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		64F4B2CD28E6EBB7003799C6 = {
 			isa = PBXGroup;
 			children = (
@@ -149,8 +158,8 @@
 		64F4B2D828E6EBB7003799C6 /* Hospital-List */ = {
 			isa = PBXGroup;
 			children = (
-				64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */,
-				64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */,
+				64B2C58D28EC9BB4004C2D40 /* Application */,
+				644A892C28EBFC0200883633 /* APIKey */,
 				64B2C57A28EC4A41004C2D40 /* Home */,
 				64B2C58228EC5ABD004C2D40 /* Storage */,
 				64B2C57428EC489D004C2D40 /* Utils */,
