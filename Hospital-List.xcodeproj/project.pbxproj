@@ -16,6 +16,7 @@
 		64B2C58C28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58A28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift */; };
 		64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58E28EC9C8C004C2D40 /* UIView+.swift */; };
 		64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */; };
+		64E2599B28EC3F4100C197A9 /* HospitalListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */; };
 		64E2599D28EC40EB00C197A9 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599C28EC40EB00C197A9 /* Storage.swift */; };
 		64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */; };
 		64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 		64B2C58A28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HospitalEntity+CoreDataProperties.swift"; path = "/Users/eddy/Documents/Hospital-List/Hospital-List/Storage/HospitalEntity+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
 		64B2C58E28EC9C8C004C2D40 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HospitalList+Bundle.swift"; sourceTree = "<group>"; };
+		64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListButton.swift; sourceTree = "<group>"; };
 		64E2599C28EC40EB00C197A9 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		64E2599E28EC41FB00C197A9 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
 		64F4B2D628E6EBB7003799C6 /* Hospital-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +108,14 @@
 			path = HospitalList;
 			sourceTree = "<group>";
 		};
+		64B2C57A28EC4A41004C2D40 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		64B2C58228EC5ABD004C2D40 /* Storage */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +151,7 @@
 			children = (
 				64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */,
 				64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */,
-				64F4B2DD28E6EBB7003799C6 /* ViewController.swift */,
+				64B2C57A28EC4A41004C2D40 /* Home */,
 				64B2C58228EC5ABD004C2D40 /* Storage */,
 				64B2C57428EC489D004C2D40 /* Utils */,
 				64F4B2E228E6EBB8003799C6 /* Assets.xcassets */,
@@ -274,8 +284,10 @@
 				64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */,
 				64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */,
 				64B2C58C28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift in Sources */,
+				64E2599B28EC3F4100C197A9 /* HospitalListButton.swift in Sources */,
 				64B2C58B28EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift in Sources */,
 				64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */,
+				64E2599F28EC41FB00C197A9 /* Hospital.swift in Sources */,
 				64B2C57328EC4883004C2D40 /* UIStackView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
