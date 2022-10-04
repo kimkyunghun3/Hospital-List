@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890628E7DFBA00883633 /* AlertBuilder.swift */; };
 		644A890928E7DFBF00883633 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890828E7DFBF00883633 /* AlertAction.swift */; };
+		64B2C57328EC4883004C2D40 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57228EC4883004C2D40 /* UIStackView+.swift */; };
+		64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58E28EC9C8C004C2D40 /* UIView+.swift */; };
 		64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */; };
 		64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */; };
 		64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */; };
@@ -22,6 +24,8 @@
 		12DB02FA75E27D7B94AEE4F3 /* Pods-Hospital-List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital-List.debug.xcconfig"; path = "Target Support Files/Pods-Hospital-List/Pods-Hospital-List.debug.xcconfig"; sourceTree = "<group>"; };
 		644A890628E7DFBA00883633 /* AlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
 		644A890828E7DFBF00883633 /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		64B2C57228EC4883004C2D40 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		64B2C58E28EC9C8C004C2D40 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HospitalList+Bundle.swift"; sourceTree = "<group>"; };
 		64F4B2D628E6EBB7003799C6 /* Hospital-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +79,9 @@
 		64B2C57428EC489D004C2D40 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				64B2C57228EC4883004C2D40 /* UIStackView+.swift */,
 				644A890628E7DFBA00883633 /* AlertBuilder.swift */,
+				64B2C58E28EC9C8C004C2D40 /* UIView+.swift */,
 				644A890828E7DFBF00883633 /* AlertAction.swift */,
 			);
 			path = Utils;
@@ -230,9 +236,11 @@
 				64F4B2DE28E6EBB7003799C6 /* ViewController.swift in Sources */,
 				644A890928E7DFBF00883633 /* AlertAction.swift in Sources */,
 				644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */,
+				64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */,
 				64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */,
 				64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */,
 				64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */,
+				64B2C57328EC4883004C2D40 /* UIStackView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
