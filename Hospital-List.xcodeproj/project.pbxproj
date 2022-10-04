@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890628E7DFBA00883633 /* AlertBuilder.swift */; };
 		644A890928E7DFBF00883633 /* AlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A890828E7DFBF00883633 /* AlertAction.swift */; };
+		64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */; };
 		64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */; };
 		64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */; };
 		64F4B2DE28E6EBB7003799C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DD28E6EBB7003799C6 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 		12DB02FA75E27D7B94AEE4F3 /* Pods-Hospital-List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hospital-List.debug.xcconfig"; path = "Target Support Files/Pods-Hospital-List/Pods-Hospital-List.debug.xcconfig"; sourceTree = "<group>"; };
 		644A890628E7DFBA00883633 /* AlertBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
 		644A890828E7DFBF00883633 /* AlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAction.swift; sourceTree = "<group>"; };
+		64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HospitalList+Bundle.swift"; sourceTree = "<group>"; };
 		64F4B2D628E6EBB7003799C6 /* Hospital-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 				656632C5480D632BCAAE36E4 /* Pods_Hospital_List.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		644A892C28EBFC0200883633 /* APIKey */ = {
+			isa = PBXGroup;
+			children = (
+				64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */,
+			);
+			path = APIKey;
 			sourceTree = "<group>";
 		};
 		64B2C57428EC489D004C2D40 /* Utils */ = {
@@ -222,6 +232,7 @@
 				644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */,
 				64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */,
 				64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */,
+				64E2599728EBFD0C00C197A9 /* HospitalList+Bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,13 @@
 
 import UIKit
 
+import NMapsMap
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        let clientId = Bundle.main.clientKey
+        NMFAuthManager.shared().clientId = clientId
 
         return true
     }
