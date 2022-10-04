@@ -20,6 +20,10 @@
 		644A891E28E7F80A00883633 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A891D28E7F80A00883633 /* PrimitiveSequence.swift */; };
 		644A892128E7F83000883633 /* Encodable+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A892028E7F83000883633 /* Encodable+Alamofire.swift */; };
 		64B2C57328EC4883004C2D40 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57228EC4883004C2D40 /* UIStackView+.swift */; };
+		64B2C57628EC48C2004C2D40 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57528EC48C2004C2D40 /* Formatter.swift */; };
+		64B2C57828EC4928004C2D40 /* Date+sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57728EC4928004C2D40 /* Date+sugar.swift */; };
+		64B2C57C28EC4E21004C2D40 /* HospitalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57B28EC4E21004C2D40 /* HospitalListView.swift */; };
+		64B2C57E28EC5025004C2D40 /* HospitalListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57D28EC5025004C2D40 /* HospitalListViewModel.swift */; };
 		64B2C58128EC59C0004C2D40 /* HospitalList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57F28EC59C0004C2D40 /* HospitalList.xcdatamodeld */; };
 		64B2C58828EC6348004C2D40 /* PersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58728EC6348004C2D40 /* PersistentManager.swift */; };
 		64B2C58B28EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C58928EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift */; };
@@ -30,6 +34,8 @@
 		64E2599B28EC3F4100C197A9 /* HospitalListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */; };
 		64E2599D28EC40EB00C197A9 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599C28EC40EB00C197A9 /* Storage.swift */; };
 		64E2599F28EC41FB00C197A9 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E2599E28EC41FB00C197A9 /* Hospital.swift */; };
+		64E259A128EC447600C197A9 /* HospitalListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E259A028EC447600C197A9 /* HospitalListViewController.swift */; };
+		64E259A328EC459100C197A9 /* HospitalListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E259A228EC459100C197A9 /* HospitalListCell.swift */; };
 		64F4B2DA28E6EBB7003799C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */; };
 		64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */; };
 		64F4B2DE28E6EBB7003799C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F4B2DD28E6EBB7003799C6 /* MainViewController.swift */; };
@@ -53,6 +59,10 @@
 		644A891D28E7F80A00883633 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveSequence.swift; sourceTree = "<group>"; };
 		644A892028E7F83000883633 /* Encodable+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Alamofire.swift"; sourceTree = "<group>"; };
 		64B2C57228EC4883004C2D40 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		64B2C57528EC48C2004C2D40 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		64B2C57728EC4928004C2D40 /* Date+sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+sugar.swift"; sourceTree = "<group>"; };
+		64B2C57B28EC4E21004C2D40 /* HospitalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListView.swift; sourceTree = "<group>"; };
+		64B2C57D28EC5025004C2D40 /* HospitalListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListViewModel.swift; sourceTree = "<group>"; };
 		64B2C58028EC59C0004C2D40 /* HospitalList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HospitalList.xcdatamodel; sourceTree = "<group>"; };
 		64B2C58728EC6348004C2D40 /* PersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentManager.swift; sourceTree = "<group>"; };
 		64B2C58928EC644F004C2D40 /* HospitalEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HospitalEntity+CoreDataClass.swift"; path = "/Users/eddy/Documents/Hospital-List/Hospital-List/Storage/HospitalEntity+CoreDataClass.swift"; sourceTree = "<absolute>"; };
@@ -63,6 +73,8 @@
 		64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListButton.swift; sourceTree = "<group>"; };
 		64E2599C28EC40EB00C197A9 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		64E2599E28EC41FB00C197A9 /* Hospital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hospital.swift; sourceTree = "<group>"; };
+		64E259A028EC447600C197A9 /* HospitalListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListViewController.swift; sourceTree = "<group>"; };
+		64E259A228EC459100C197A9 /* HospitalListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalListCell.swift; sourceTree = "<group>"; };
 		64F4B2D628E6EBB7003799C6 /* Hospital-List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospital-List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F4B2D928E6EBB7003799C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +170,8 @@
 				644A890628E7DFBA00883633 /* AlertBuilder.swift */,
 				64B2C58E28EC9C8C004C2D40 /* UIView+.swift */,
 				644A890828E7DFBF00883633 /* AlertAction.swift */,
+				64B2C57528EC48C2004C2D40 /* Formatter.swift */,
+				64B2C57728EC4928004C2D40 /* Date+sugar.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -165,6 +179,10 @@
 		64B2C57928EC4A2B004C2D40 /* HospitalList */ = {
 			isa = PBXGroup;
 			children = (
+				64E259A028EC447600C197A9 /* HospitalListViewController.swift */,
+				64B2C57B28EC4E21004C2D40 /* HospitalListView.swift */,
+				64B2C57D28EC5025004C2D40 /* HospitalListViewModel.swift */,
+				64E259A228EC459100C197A9 /* HospitalListCell.swift */,
 				64E2599E28EC41FB00C197A9 /* Hospital.swift */,
 			);
 			path = HospitalList;
@@ -227,6 +245,7 @@
 				644A892C28EBFC0200883633 /* APIKey */,
 				64B2C57A28EC4A41004C2D40 /* Home */,
 				64B2C58228EC5ABD004C2D40 /* Storage */,
+				64B2C57928EC4A2B004C2D40 /* HospitalList */,
 				64B2C57428EC489D004C2D40 /* Utils */,
 				644A890E28E7F72700883633 /* Networking */,
 				64F4B2E228E6EBB8003799C6 /* Assets.xcassets */,
@@ -350,13 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F4B2DE28E6EBB7003799C6 /* ViewController.swift in Sources */,
+				64B2C57C28EC4E21004C2D40 /* HospitalListView.swift in Sources */,
+				64B2C57E28EC5025004C2D40 /* HospitalListViewModel.swift in Sources */,
 				644A890928E7DFBF00883633 /* AlertAction.swift in Sources */,
 				644A890728E7DFBA00883633 /* AlertBuilder.swift in Sources */,
 				644A891628E7F79500883633 /* HospitalListResponse.swift in Sources */,
 				64B2C58828EC6348004C2D40 /* PersistentManager.swift in Sources */,
+				64E259A128EC447600C197A9 /* HospitalListViewController.swift in Sources */,
+				64B2C57828EC4928004C2D40 /* Date+sugar.swift in Sources */,
 				64E2599D28EC40EB00C197A9 /* Storage.swift in Sources */,
 				644A891828E7F7C000883633 /* HospitalListRequestModel.swift in Sources */,
+				64B2C57628EC48C2004C2D40 /* Formatter.swift in Sources */,
 				644A891028E7F73A00883633 /* NetworkRequestable.swift in Sources */,
 				64B2C58F28EC9C8C004C2D40 /* UIView+.swift in Sources */,
 				644A892128E7F83000883633 /* Encodable+Alamofire.swift in Sources */,
@@ -367,6 +390,7 @@
 				64F4B2DC28E6EBB7003799C6 /* SceneDelegate.swift in Sources */,
 				64B2C58C28EC644F004C2D40 /* HospitalEntity+CoreDataProperties.swift in Sources */,
 				644A890B28E7F14300883633 /* MainViewModel.swift in Sources */,
+				64E259A328EC459100C197A9 /* HospitalListCell.swift in Sources */,
 				644A891428E7F77900883633 /* HospitalListService.swift in Sources */,
 				644A891228E7F75B00883633 /* HospitalListAPI.swift in Sources */,
 				64E2599928EC384000C197A9 /* MainInfoView.swift in Sources */,

@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/eddy/Documents/Hospital-List/Hospital-List/Storage/HospitalEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/eddy/Documents/Hospital-List/Hospital-List/Storage/HospitalEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:Hospital-List.xcodeproj">
    </FileRef>
    <FileRef
