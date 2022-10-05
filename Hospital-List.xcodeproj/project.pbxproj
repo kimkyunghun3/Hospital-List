@@ -19,6 +19,8 @@
 		644A891C28E7F7F200883633 /* CommonRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A891B28E7F7F200883633 /* CommonRequest.swift */; };
 		644A891E28E7F80A00883633 /* PrimitiveSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A891D28E7F80A00883633 /* PrimitiveSequence.swift */; };
 		644A892128E7F83000883633 /* Encodable+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A892028E7F83000883633 /* Encodable+Alamofire.swift */; };
+		644A892528EBF95000883633 /* NaverMapClientId.plist in Resources */ = {isa = PBXBuildFile; fileRef = 644A892428EBF95000883633 /* NaverMapClientId.plist */; };
+		644A892B28EBFB3E00883633 /* HospitalInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 644A892A28EBFB3E00883633 /* HospitalInfo.plist */; };
 		64B2C57328EC4883004C2D40 /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57228EC4883004C2D40 /* UIStackView+.swift */; };
 		64B2C57628EC48C2004C2D40 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57528EC48C2004C2D40 /* Formatter.swift */; };
 		64B2C57828EC4928004C2D40 /* Date+sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B2C57728EC4928004C2D40 /* Date+sugar.swift */; };
@@ -58,6 +60,8 @@
 		644A891B28E7F7F200883633 /* CommonRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonRequest.swift; sourceTree = "<group>"; };
 		644A891D28E7F80A00883633 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveSequence.swift; sourceTree = "<group>"; };
 		644A892028E7F83000883633 /* Encodable+Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Alamofire.swift"; sourceTree = "<group>"; };
+		644A892428EBF95000883633 /* NaverMapClientId.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NaverMapClientId.plist; sourceTree = "<group>"; };
+		644A892A28EBFB3E00883633 /* HospitalInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HospitalInfo.plist; sourceTree = "<group>"; };
 		64B2C57228EC4883004C2D40 /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
 		64B2C57528EC48C2004C2D40 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		64B2C57728EC4928004C2D40 /* Date+sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+sugar.swift"; sourceTree = "<group>"; };
@@ -158,6 +162,8 @@
 		644A892C28EBFC0200883633 /* APIKey */ = {
 			isa = PBXGroup;
 			children = (
+				644A892428EBF95000883633 /* NaverMapClientId.plist */,
+				644A892A28EBFB3E00883633 /* HospitalInfo.plist */,
 				64E2599628EBFD0C00C197A9 /* HospitalList+Bundle.swift */,
 			);
 			path = APIKey;
@@ -315,6 +321,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644A892B28EBFB3E00883633 /* HospitalInfo.plist in Resources */,
+				644A892528EBF95000883633 /* NaverMapClientId.plist in Resources */,
 				64F4B2E628E6EBB8003799C6 /* LaunchScreen.storyboard in Resources */,
 				64F4B2E328E6EBB8003799C6 /* Assets.xcassets in Resources */,
 			);
