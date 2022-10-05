@@ -185,11 +185,10 @@
 		64B2C57928EC4A2B004C2D40 /* HospitalList */ = {
 			isa = PBXGroup;
 			children = (
-				64E259A028EC447600C197A9 /* HospitalListViewController.swift */,
-				64B2C57B28EC4E21004C2D40 /* HospitalListView.swift */,
-				64B2C57D28EC5025004C2D40 /* HospitalListViewModel.swift */,
-				64E259A228EC459100C197A9 /* HospitalListCell.swift */,
-				64E2599E28EC41FB00C197A9 /* Hospital.swift */,
+				64B2C59328ED5140004C2D40 /* ViewController */,
+				64B2C59228ED512B004C2D40 /* ViewModel */,
+				64B2C59128ED5124004C2D40 /* View */,
+				64B2C59028ED511D004C2D40 /* Model */,
 			);
 			path = HospitalList;
 			sourceTree = "<group>";
@@ -197,10 +196,9 @@
 		64B2C57A28EC4A41004C2D40 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				64F4B2DD28E6EBB7003799C6 /* MainViewController.swift */,
-				64E2599828EC384000C197A9 /* MainInfoView.swift */,
-				644A890A28E7F14300883633 /* MainViewModel.swift */,
-				64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */,
+				64B2C59628ED5158004C2D40 /* ViewController */,
+				64B2C59528ED5152004C2D40 /* ViewModel */,
+				64B2C59428ED514A004C2D40 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -224,6 +222,64 @@
 				64F4B2DB28E6EBB7003799C6 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		64B2C59028ED511D004C2D40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64E2599E28EC41FB00C197A9 /* Hospital.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64B2C59128ED5124004C2D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B2C57B28EC4E21004C2D40 /* HospitalListView.swift */,
+				64E259A228EC459100C197A9 /* HospitalListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B2C59228ED512B004C2D40 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64B2C57D28EC5025004C2D40 /* HospitalListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64B2C59328ED5140004C2D40 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64E259A028EC447600C197A9 /* HospitalListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		64B2C59428ED514A004C2D40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E2599828EC384000C197A9 /* MainInfoView.swift */,
+				64E2599A28EC3F4100C197A9 /* HospitalListButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64B2C59528ED5152004C2D40 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				644A890A28E7F14300883633 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64B2C59628ED5158004C2D40 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64F4B2DD28E6EBB7003799C6 /* MainViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		64F4B2CD28E6EBB7003799C6 = {
@@ -250,8 +306,8 @@
 				64B2C58D28EC9BB4004C2D40 /* Application */,
 				644A892C28EBFC0200883633 /* APIKey */,
 				64B2C57A28EC4A41004C2D40 /* Home */,
-				64B2C58228EC5ABD004C2D40 /* Storage */,
 				64B2C57928EC4A2B004C2D40 /* HospitalList */,
+				64B2C58228EC5ABD004C2D40 /* Storage */,
 				64B2C57428EC489D004C2D40 /* Utils */,
 				644A890E28E7F72700883633 /* Networking */,
 				64F4B2E228E6EBB8003799C6 /* Assets.xcassets */,
