@@ -1,8 +1,8 @@
 //
 //  HospitalEntity+CoreDataClass.swift
-//  
+//  Hospital-List
 //
-//  Created by Eddy on 2022/10/04.
+//  Created by Eddy on 2022/10/05.
 //
 //
 
