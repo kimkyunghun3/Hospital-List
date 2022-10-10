@@ -30,7 +30,7 @@
 - API Key에 %2D와 같이 %가 들어간 경우 특수문자 인코딩으로 받아서 실제 API를 Request할 때 자동으로 변환되어서 제대로 요청이 되지 않는 에러가 발생
 - 이를 해결하기 위해 변환된 문자를 넣어서 사용하여 해결
 
-[변환표](https://leelsm.tistory.com/52](https://leelsm.tistory.com/52)
+[변환표](https://leelsm.tistory.com/52)
 
 3. CoreData 사용 및 Storage 추상화
 - 현재 앱에서는 CoreData만 사용하기 때문에 하나의 create, fetch만 필요하다.
